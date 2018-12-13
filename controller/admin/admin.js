@@ -4,7 +4,7 @@ import AdminModel from '../../models/admin/admin'
 import AddressComponent from '../../prototype/addressComponent'
 import crypto from 'crypto'
 import formidable from 'formidable'
-import dtime from 'time-formater'
+import timestamp from 'time-stamp'
 
 class Admin extends AddressComponent {
 	constructor(){
@@ -52,7 +52,7 @@ class Admin extends AddressComponent {
 						user_name, 
 						password: newpassword, 
 						id: admin_id,
-						create_time: dtime().format('YYYY-MM-DD HH:mm'),
+						create_time: timestamp('YYYY-MM-DD HH:mm:ss'),
 						admin: adminTip,
 						status,
 						city: cityInfo.city
@@ -131,7 +131,7 @@ class Admin extends AddressComponent {
 						user_name, 
 						password: newpassword, 
 						id: admin_id,
-						create_time: dtime().format('YYYY-MM-DD'),
+						create_time: timestamp('YYYY-MM-DD HH:mm:ss'),
 						admin: adminTip,
 						status,
 					}

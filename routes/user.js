@@ -1,9 +1,9 @@
 'use strict';
 
 import express from 'express'
-import user from '../controller/user/user'
+import User from '../controller/user/user'
 const router = express.Router()
 
-// router.get('/getAll', user.getAllquiz);
+router.post('/login', User.login);
 
 export default router

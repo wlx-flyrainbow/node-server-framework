@@ -1,7 +1,6 @@
 'use strict';
 
-import MettingModel from '../../models/metting/metting'
-import ScheduleModel from '../../models/metting/schedule'
+import QuizModel from '../../models/quiz/quiz'
 import BaseComponent from '../../prototype/baseComponent'
 import formidable from 'formidable'
 import dtime from 'time-formater'

@@ -5,8 +5,15 @@ import mongoose from 'mongoose'
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
-    openId: String,
-    userId: String,
+    loginCode: String,
+    openid: String,
+    session_key: String,
+    user_id: String,
+    create_time: String,
+    encryptedData: String,
+    iv: String,
+    rawData: String,
+    signature: String
 })
 
 userSchema.index({id: 1});

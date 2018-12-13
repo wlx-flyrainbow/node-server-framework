@@ -1,14 +1,13 @@
 {
-	"name": "node-server-framework",
+	"name": "node-quiz-server",
 	"version": "1.0.0",
-	"description": "基于node、express搭建的后端基础开发框架",
+	"description": "基于node、express搭建的测试题功能后端基础开发框架",
 	"main": "index.js",
 	"repository": "https://github.com/wlx-flyrainbow/node-server-framework.git",
 	"author": "flyRainbow",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"babel": "babel-node index.js",
 		"dev": "cross-env NODE_ENV=development supervisor --harmony index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

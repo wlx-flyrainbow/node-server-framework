@@ -1,11 +1,13 @@
 'use strict';
 
-import admin from './admin'
-import metting from './metting'
+import admin from './admin';
+import user from './user';
+import quiz from './quiz';
 
 export default app => {
 	app.use('/admin', admin);
-	app.use('/metting', metting);
+	app.use('/user', user);
+	app.use('/quiz', quiz);
 	// 定制404页面
 	app.use(function(req, res){
 		res.type('text/plain');

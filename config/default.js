@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-	port: 8001,
-	url: 'mongodb://localhost:27017/phoenix',
+	port: 8002,
+	url: 'mongodb://localhost:27017/quiz',
 	session: {
 		name: 'SID',
 		secret: 'SID',

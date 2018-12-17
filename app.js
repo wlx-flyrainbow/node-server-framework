@@ -1,12 +1,12 @@
-import express from 'express';
-import db from './db/mongodb.js';
-import config from 'config-lite';
-import router from './routes/index.js';
+import express from 'express'
+import db from './db/mongodb.js'
+import config from 'config-lite'
+import router from './routes/index.js'
 import cookieParser from 'cookie-parser'
-import session from 'express-session';
-import connectMongo from 'connect-mongo';
-import path from 'path';
-import chalk from 'chalk';
+import session from 'express-session'
+import connectMongo from 'connect-mongo'
+import path from 'path'
+import chalk from 'chalk'
 
 const app = express();
 // console.log("process.env.NODE_ENV = " + process.env.NODE_ENV);

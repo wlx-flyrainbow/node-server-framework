@@ -9,11 +9,9 @@ const userSchema = new Schema({
     openid: String,
     session_key: String,
     user_id: String,
+    token: String,
     create_time: String,
-    encryptedData: String,
-    iv: String,
-    rawData: String,
-    signature: String
+    userInfo: {}
 })
 
 userSchema.index({id: 1});

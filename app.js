@@ -7,6 +7,7 @@ import session from 'express-session'
 import connectMongo from 'connect-mongo'
 import path from 'path'
 import chalk from 'chalk'
+// import './initData/eventLoop'
 
 const app = express();
 // console.log("process.env.NODE_ENV = " + process.env.NODE_ENV);

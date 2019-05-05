@@ -7,7 +7,7 @@
 var a = 1
 console.log('script', this.a);
 
-// 2. function 中 this 指向 Window {}
+// 2. function 中 this 指向 window {}
 (function f() {
     var a = 2, b = 1;
     console.log('function 中 b', this.b); // undefined

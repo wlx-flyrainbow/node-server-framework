@@ -24,6 +24,8 @@
 		"gm": "^1.23.1",
 		"mongoose": "4.9.3",
 		"node-fetch": "^2.3.0",
+		"nodemailer": "^6.3.1",
+		"nodemailer-smtp-transport": "^2.7.4",
 		"pinyin": "^2.8.3",
 		"qiniu": "^7.2.1",
 		"time-formater": "^1.1.1"

@@ -28,7 +28,8 @@
 		"nodemailer-smtp-transport": "^2.7.4",
 		"pinyin": "^2.8.3",
 		"qiniu": "^7.2.1",
-		"time-formater": "^1.1.1"
+		"time-formater": "^1.1.1",
+		"websocket": "^1.0.31"
 	},
 	"devDependencies": {
 		"babel": "^6.23.0",

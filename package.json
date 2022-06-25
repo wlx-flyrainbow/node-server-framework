@@ -23,7 +23,7 @@
 		"formidable": "^1.2.1",
 		"gm": "^1.23.1",
 		"mongoose": "4.9.3",
-		"node-fetch": "^2.3.0",
+		"node-fetch": "^2.6.7",
 		"pinyin": "^2.8.3",
 		"qiniu": "^7.2.1",
 		"time-formater": "^1.1.1"
